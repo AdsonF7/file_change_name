@@ -1,0 +1,48 @@
+# self._countfiles += 1
+		# filename = splitext(split(file[0])[1])[0]
+		# self._sel_check = Checkbutton(self._frame)
+		# self._sel_check.grid(column=0, row=self._countfiles)
+		# self._et_old_name = Entry(self._frame)
+		# self._et_old_name.insert(0, filename)
+		# self._et_old_name.configure(state=DISABLED)
+		# self._et_old_name.grid(column=1, row=self._countfiles, sticky=NSEW)
+		# self._et_new_name = Entry(self._frame)
+		# self._et_new_name.insert(0, filename)
+		# self._et_new_name.grid(column=2, row=self._countfiles, sticky=NSEW)
+  
+  
+  
+  # new_files = self._et_new_name.get("1.0", END).split("\n")[:-1]
+		# if len(self.files) > 0 and len(new_files) >= len(self.old_files):
+		# 	for i in range(len(new_files)):
+		# 		folder = split(self.old_files[i])[0]
+		# 		filename = split(self.old_files[i])[1]
+		# 		extension = splitext(filename)[1]
+		# 		#print(f"{self.oldfiles[i]} {join(folder, ''.join([newfiles[i], extension]))}")
+		# 		os.rename(self.old_files[i], join(folder, ''.join([new_files[i], extension])))
+				#newfullpath = join(os.curdir, *path, newfilenames[i])
+				#print(newfullpath)
+				#print(f'{self.oldfiles[i]} {newfullpath}')
+    # #self.newfiles.append(file)
+		#print(self.oldfiles)
+  
+  
+  # self.et_old_name.configure(state=NORMAL)
+		# self.et_old_name.delete("1.0", END)
+		# self.et_old_name.configure(state=DISABLED)
+		# self.et_new_name.delete("1.0", END)
+		# self._files = []
+  
+  
+  # for file in files:
+		# 	print(file)
+		# 	filename = splitext(split(file)[1])[0]
+		# 	self.et_old_name.configure(state=NORMAL)
+		# 	if len(self.oldfiles) > 0:
+		# 		self.et_old_name.insert(END, "\n")
+		# 	self.et_old_name.insert(END, filename)
+		# 	self.et_old_name.configure(state=DISABLED)
+		# 	if len(self.oldfiles) > 0:
+		# 		self.et_new_name.insert(END, "\n")
+		# 	self.et_new_name.insert(END, filename)
+		# 	self._files.append(file)
